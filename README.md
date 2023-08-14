@@ -15,6 +15,7 @@ You are given n players and x lines with the following rules:
 Return the number of valid configurations of lines, excluding duplicates.
 
 This problem was intended to be solved with Recursion.
+
 This problem was solved with Recursion.
 
  ## PA2: Borderlands
@@ -28,6 +29,7 @@ You are given x rows of 3 bulbs. The label of each of the bulbs can range from 1
 Return a boolean list that defines a valid state of the switches 1 through n.
 
 This problem was intended to be solved with Divide and Conquer.
+
 This problem was solved naively by toggling a random switch from a row where no bulbs were ON.
 
 ## PA3: Hopscotch
@@ -49,6 +51,7 @@ You are given an n by m grid of integers and the following rules:
 Return an integer list that defines a path around the grid that produces the highest score.
 
 This problem was intended to be solved with the All Points Shortest Path algorithm.
+
 This problem was solved using Dynamic Programming.
 
 ## PA4: Dominos
@@ -61,6 +64,7 @@ You are given a set of dominos and the following rules:
 Return a valid list of int[] representing the final domino configuration.
 
 This problem was intended to be solved with the Eulerian Cycle algorithm.
+
 This problem was solved using the Eulerian Cycle algorithm.
 
 ## PA5: Shang Chi
@@ -77,4 +81,5 @@ You are given a 3x3 grid, a line of ingredients `0`, `1`, and `2`, and the follo
 Return a list of integers representing the indeces of combinations at each step.
 
 This problem was intended to be solved with Memoization.
+
 This problem was solved by naively reducing the number of ingredients to 8, before performing Memoization.
