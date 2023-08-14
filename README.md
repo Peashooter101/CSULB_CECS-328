@@ -1,5 +1,9 @@
 # CSULB CECS 328: Algorithms
- 
+
+These are the programming assignments given to us. The only resource we were allowed to use is official documentation of the language we were using and the provided PDF prompt.
+
+We were allowed to choose between C++, Java, and Python. 10 automatically generated test cases were used to grade each assignment. Test Cases 1 and 2 were the simplest and smallest whereas Test Cases 9 and 10 tested the efficiency of the program with huge inputs. Total score of 50/50.
+
 ## PA1: Squid Game
 
 You are given n players and x lines with the following rules:
@@ -8,7 +12,10 @@ You are given n players and x lines with the following rules:
   - The line is empty.
   - The sum of this player and the player in front of them must be a perfect square (Player 3 can stand behind Player 1, 3 + 1 = 4).
 
- Return the number of valid configurations of lines, excluding duplicates.
+Return the number of valid configurations of lines, excluding duplicates.
+
+This problem was intended to be solved with Recursion.
+This problem was solved with Recursion.
 
  ## PA2: Borderlands
 
@@ -19,6 +26,9 @@ You are given x rows of 3 bulbs. The label of each of the bulbs can range from 1
 - A bulb must be on in every row.
 
 Return a boolean list that defines a valid state of the switches 1 through n.
+
+This problem was intended to be solved with Divide and Conquer.
+This problem was solved naively by toggling a random switch from a row where no bulbs were ON.
 
 ## PA3: Hopscotch
 
@@ -38,6 +48,9 @@ You are given an n by m grid of integers and the following rules:
 
 Return an integer list that defines a path around the grid that produces the highest score.
 
+This problem was intended to be solved with the All Points Shortest Path algorithm.
+This problem was solved using Dynamic Programming.
+
 ## PA4: Dominos
 
 You are given a set of dominos and the following rules:
@@ -46,6 +59,9 @@ You are given a set of dominos and the following rules:
 - Each domino must be used once and only once.
 
 Return a valid list of int[] representing the final domino configuration.
+
+This problem was intended to be solved with the Eulerian Cycle algorithm.
+This problem was solved using the Eulerian Cycle algorithm.
 
 ## PA5: Shang Chi
 
@@ -59,3 +75,6 @@ You are given a 3x3 grid, a line of ingredients `0`, `1`, and `2`, and the follo
 - You want to combine the ingredients until you are left with only `0`.
 
 Return a list of integers representing the indeces of combinations at each step.
+
+This problem was intended to be solved with Memoization.
+This problem was solved by naively reducing the number of ingredients to 8, before performing Memoization.
